@@ -37,8 +37,8 @@ layout: default
 {% endif %}
 
 <!-- Disqus -->
-{% if site.theme.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
-</div>
+{% if site.disqus_shortname %}
+  <div class="comments">
+    {% include disqus.html %}
+  </div>
 {% endif %}
