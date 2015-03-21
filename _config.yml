@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://j4rvis.de"
 
 # Google analytics
-google_analytics:
+google_analytics: "UA-50047123-1"
 
 # Optional features
 animated:           false
