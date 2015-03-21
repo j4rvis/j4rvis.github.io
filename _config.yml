@@ -9,6 +9,9 @@ url:         "http://j4rvis.de"
 # Google analytics
 google_analytics: "UA-50047123-1"
 
+# Disqus
+disqus_shortname: 'j4rvis'
+
 # Optional features
 animated:           false
 show_related_posts: false
