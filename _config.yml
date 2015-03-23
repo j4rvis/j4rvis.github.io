@@ -1,35 +1,69 @@
-# Site settings
-title:       j4rvis
-email:       schwarzm90@gmail.com
-author:      Michael Schwarz
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://j4rvis.de"
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://example.com" # the base hostname & protocol for your site
 
-# Google analytics
-google_analytics: "UA-50047123-1"
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: j4rvis
+  avatar: 
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-# Disqus
-disqus_shortname: "j4rvis"
+  # Header and footer text
+  header_text: >
+     <p>Welcome to my page.</p>
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
-# Social icons
-show_social_icons: true
-github_username: "j4rvis"
-twitter_username: "iamJ4rvis"
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+  # Icons
+  rss: false
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "j4rvis"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "iamJ4rvis"
+  wordpress:
+  youtube:
 
-# Build settings
-markdown:     kramdown
-permalink:    pretty
-paginate:     3
+  # Scripts
+  google_analytics: "UA-50047123-1"
+  disqus_shortname: j4rvis
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+#Rouge pygments
+markdown: kramdown
+highlighter: pygments
 sass:
-  compressed: true
+  sass_dir: _sass
+  style: :compressed
