@@ -4,7 +4,9 @@ title: Impressum
 permalink: /impressum/
 ---
 ![Impressum](/img/address.png)
-  
+
+E-mail: mail@j4rvis.de
+ 
 &nbsp;
 
 &nbsp;
