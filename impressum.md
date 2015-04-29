@@ -3,14 +3,8 @@ layout: page
 title: Impressum
 permalink: /impressum/
 ---
-
-Michael Schwarz  
-Mariendorfer Damm 375  
-12107 Berlin   
-
-E-mail: schwarzm90 (at) gmail . com   
-&nbsp;
-
+![Impressum](/img/address.png)
+  
 &nbsp;
 
 &nbsp;
