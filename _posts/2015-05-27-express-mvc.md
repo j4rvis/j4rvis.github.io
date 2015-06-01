@@ -39,7 +39,6 @@ views
 
 The next steps on creating the whole application will be demonstrated in the next part.
 
-<<<<<<< HEAD
 [1]: http://expressjs.com/
 [2]: https://nodejs.org/
 [3]: http://sailsjs.org/#!/
