@@ -7,5 +7,8 @@
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
   }
 }
