@@ -1,0 +1,10 @@
+{
+    "title": "Michael's TIL Notes",
+    "url": "til.schwarz-micha.de",
+    "description": "This page will contain notes I make during the day. Thus I will keep information I've learned this day.",
+    "author": {
+      "name": "Michael Schwarz",
+      "email": "youremailaddress@example.com",
+      "url": "http://til.schwarz-micha.de/about-me/"
+    }
+  }
