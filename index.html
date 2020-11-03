@@ -1,4 +1,15 @@
 ---
 layout: default
 ---
-TIL
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.tags %}
+      <p>
+        {% post.tags | join: ", " %}
+      </p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
