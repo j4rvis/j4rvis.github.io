@@ -1,5 +1,5 @@
 ---
-tags: post
+tags: note
 title: "How to Github Pages"
 ---
 Github pages
